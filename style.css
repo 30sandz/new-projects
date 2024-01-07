@@ -1,3 +1,6 @@
+* {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
 
 .Home {
     height: 100vh;
@@ -13,7 +16,6 @@
     width: 100%;
     padding: 15px 0;
     text-align: center;
-    #333333 rgb(49, 86, 89)
 }
 .bottom-navbar ul {
     list-style: none;
@@ -93,7 +95,7 @@ header {
     color: #ffffff;
     text-decoration: none;
     background-color: transparent;
-    border: solid rgb(49, 86, 89);
+    border: solid rgb(49, 86, 89) 3px;
     margin-top: 2vh;
     padding: 1vh 2vw;
     font-weight: 500;
@@ -114,7 +116,7 @@ header {
 }
 
 .About {
-    border-bottom: solid transparen ;
+    border-bottom: solid transparent;
     background-color: rgb(37, 48, 49);
     height: auto;
 }
