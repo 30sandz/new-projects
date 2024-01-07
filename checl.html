@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mobile Navbar</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .navbar {
+        background-color: #333;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .brand {
+        font-size: 24px;
+    }
+    
+    .content {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    #gagaan,
+    #codlaxy {
+        display: none;
+        font-size: 24px;
+    }
+    
+    </style>
+</head>
+<body>
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+      <title>Sandz Page</title>
+  </head>
+  <body>
+  
+  <div class="navbar" onclick="changeContent()">
+      <div class="brand">Sandz</div>
+  </div>
+  
+  <div class="content">
+      <div id="gagaan">Gagaan</div>
+      <div id="codlaxy">Codlaxy</div>
+  </div>
+  
+  <script src="script.js"></script>
+  </body>
+  </html>
+  
+<!-- Your content goes here -->
+
+<script >
+  function changeContent() {
+    var gagaan = document.getElementById('gagaan');
+    var codlaxy = document.getElementById('codlaxy');
+
+    // Toggle the visibility of content
+    gagaan.style.display = gagaan.style.display === 'none' ? 'block' : 'none';
+    codlaxy.style.display = codlaxy.style.display === 'none' ? 'block' : 'none';
+}
+
+</script>
+</body>
+</html>
