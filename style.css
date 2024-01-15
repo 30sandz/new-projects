@@ -4,7 +4,7 @@
 
 .Home {
     height: 100vh;
-    background-color: rgb(37, 48, 49);
+    background-color: rgb(42, 26, 31);
     scroll-behavior: smooth;
     transition: .5s;
 }
@@ -43,7 +43,7 @@
 
 header {
     width: 100vw;
-    color:rgb(124, 169, 130);
+    color:rgb(0, 204, 102);
     padding-top: 1vh;
     display: inline-block;
     text-align: center;
@@ -55,6 +55,10 @@ header {
     top: -.4vh;
 }
 
+.drop-menu {
+    z-index: 1000;
+}
+
 #drop-con {
     visibility: hidden;
     z-index: 100;
@@ -64,15 +68,16 @@ header {
 
 .drop-con a {
     text-decoration: none;
-    color: rgb(124, 169, 130);
+    color: rgb(0, 204, 102);
     display: block;
 }
 
 .Sandz {
     line-height: 5vh;
-    color:rgb(124, 169, 130);
+    color:rgb(0, 204, 102);
     text-shadow: 0 0 10px rgba(124, 169, 130, 0.8), 0 0 20px rgba(124, 169, 130, 0.6), 0 0 30px rgba(124, 169, 130, 0.4);
 }
+
 .Home section {
     margin-left: 15vw;
     z-index: 10;
@@ -145,10 +150,51 @@ header {
     color:rgb(124, 169, 130);
     padding-top: 1vh;
 }
-
-.Project {
+.content {
+    color: white;
+}
+#oops {
+    text-align: center;
+    position: relative;
+    top: 35vh;
+    color: rgba(255, 255, 255, 0.637);
+    visibility: hidden;
 }
 
+.Skills .content {
+    margin: 15vh 4vw 0vw 8vw;
+}
+
+.name {
+    width: 85vw;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.bar {
+    background: whitesmoke;
+}
+.bar .progress {
+    border-radius: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(124, 169, 130);
+}
+.py {
+    width: 20vw;
+}
+.c {
+    width: 20vw;
+}
+.ht {
+    width: 20vw;
+}
+.js {
+    width: 20vw;
+}
+
+.skill{
+    margin-top: 3vh;
+}
 @media only screen and (max-width:320px) {
     .exp {
         padding: 1vh 0vw ;
